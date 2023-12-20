@@ -1,0 +1,78 @@
+/* Custom Styles */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('img/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: black; /* Warna teks pada gambar latar belakang */
+}
+
+.bg-retro {
+  background-color: #ffcc00; /* Warna retro sesuai preferensi Anda */
+}
+.btn-hover:hover {
+  background-color: #f7fafc; /* Ganti warna latar belakang saat dihover */
+  border-color: #00c521; /* Ganti warna border saat dihover */
+  color: #000399; /* Ganti warna teks saat dihover */
+}
+section {
+  padding: 40px 0;
+  margin: 0;
+}
+
+footer {
+  background-color: #343a40; /* Warna latar belakang footer */
+  color: #fff; /* Warna teks footer */
+  padding: 10px 0;
+  text-align: center;
+}
+.btn {
+  border-radius: 10px;
+}
+.btn-hover:hover {
+  transform: scale(1.05);
+}
+
+/* Galeri */
+.gallery {
+  display: flex;
+  flex-wrap: wrap; /* Penambahan agar gambar di galeri dapat melingkar di perangkat kecil */
+  justify-content: space-between;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 100px;
+  font-weight: 900;
+}
+
+/* Custom Styles */
+
+/* ... (Gaya lainnya) */
+
+.location-info {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #089403; /* Warna label */
+  margin-right: 5px;
+}
+
+.info-item {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* ... (Gaya lainnya) */
+
+@media screen and (max-width: 768px) {
+  /* Sesuaikan gaya atau tata letak untuk perangkat seluler di sini */
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    padding-top: 50px;
+  }
+}

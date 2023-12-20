@@ -1,0 +1,30 @@
+// scripts.js
+
+// Smooth scrolling using jQuery easing
+$('a.nav-link').on('click', function (event) {
+  if (this.hash !== '') {
+    event.preventDefault();
+
+    const hash = this.hash;
+
+    $('html, body').animate(
+      {
+        scrollTop: $(hash).offset().top,
+      },
+      800,
+      function () {
+        window.location.hash = hash;
+      }
+    );
+  }
+});
+
+// Add smooth scrolling to all links inside a navbar
+$('.navbar a').on('click', function () {
+  $('html, body').animate(
+    {
+      scrollTop: $($(this).attr('href')).offset().top,
+    },
+    800
+  );
+});

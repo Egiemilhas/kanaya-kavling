@@ -1,12 +1,108 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kanaya Kavling</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+
+    <!-- Header -->
+    <header class="bg-retro text-white text-center py-5">
+        <h1>Kanaya Kavling</h1>
+        <h4>Selamat Datang di web seputar Kanaya Kavling dan Dapatkan Informasinya disini</h4>
+    </header>
+
+    <!-- Informasi Kavling -->
+    <section id="informasi-kavling" class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Tampak dari ATAS </h3>
+                <img src="img/kavling3.jpg" alt="Lokasi Kavling" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h2>Informasi Kavling</h2>
+                <p>
+                    Kanaya Kavling menawarkan tanah kavling dengan berbagai kelas yang memiliki lebar dan panjang yang
+                    berbeda.
+                </p>
+                <ul>
+                    <li>Kelas A: Lebar 10 m, Panjang 10 m</li>
+                    <li>Kelas B: Lebar 10 m, Panjang 8 m</li>
+                    <li>Kelas C: Lebar 10 m, Panjang 7 m</li>
+                    <li>Kelas D: Lebar 10 m, Panjang 6 m </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lokasi Lahan Kavling -->
+    <section id="lokasi-lahan" class="bg-white text-center py-5">
+        <h2>Lokasi Lahan Kavling</h2>
+        <!-- Sertakan Google Maps -->
+        <div id="google-maps" class="my-4">
+            <!-- Tambahkan link atau embed Google Maps di sini -->
+        </div>
+        <p class="location-info">
+            <span class="info-label">Alamat Kavling :</span> Desa Garawangi Kab. Majalengka Jawa Barat
+        </p>
+        <p class="location-info">
+            <span class="info-label">Keuntungan :</span>
+            <span class="info-item">5 menit naik motor ke pasar leuwimunding</span>
+            <span class="info-item">4 menit naik motor ke pabrik EMBEE</span>
+            <span class="info-item">5 menit naik motor ke pabrik NABATI</span>
+            <span class="info-item">Dekat dengan MASJID JAMI AL Ishlah Garawangi</span>
+            <span class="info-item">Dekat lapangan</span>
+        </p>
+
+    </section>
+
+
+    <!-- Kontak dan Galeri -->
+    <section id="kontak-galeri" class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Kontak</h2>
+                <!-- Link WA -->
+                <a href="https://api.whatsapp.com/send?phone=6285721272635"
+                    class="btn btn-primary btn-lg btn-hover">Hubungi Kami</a>
+                <p class="contact-info">
+                    <span class="info-label">
+                        <p class="location-info">
+                            Anda bisa datang langsung ke Ambang Naya yang beralamat di Blok Dukuh Luhur RT 004 RW 001
+                            Desa Sumberjaya Kec. Sumberjaya Kab. Majalengka <a
+                                href="https://maps.app.goo.gl/D4aoMJz1NZBGzcsk8">Lihat
+                                di Maps</a>
+                        </p>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h2>Galeri</h2>
+                <!-- Tambahkan gambar denah, skema, dan lainnya -->
+                <div class="gallery">
+                    <img src="img/kavling1.jpg" alt="Denah Lokasi" class="img-thumbnail">
+                    <img src="img/kavling2.jpg" alt="Skema Detail Kavling" class="img-thumbnail">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Kanaya Kavling. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
 
 </body>
 
